@@ -1,0 +1,137 @@
+
+    /* Global styles */
+	body {
+	  margin-left: 50%;
+	  font-family: Arial, sans-serif;
+	  margin: 0;
+	  padding: 0;
+	  }
+	  
+	  /* Header styles */
+	  header {
+	   background-color: #ae7d44;
+	   color: #fff;
+	   display: flex;
+	   justify-content: flex-start;
+	   align-items: cernter;
+	   padding: 20px;
+	   
+	   }
+	   
+	   header h1{
+	     margin: 0 100px 0 12%;
+		 }
+		 
+		 /* Navigation styles*/
+		 nav {
+		  display: flex;
+		  
+		  justify-content: 	center;
+		  margin-right: 0;
+		  }
+		  
+		  nav ul {
+		    list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			}
+			
+			nav li {
+			  margin-right: 20px;
+			  }
+			  
+			  nav a {
+			    color: #fff;
+				text-decoration: none;
+				text-transform: uppercase;
+				}
+			  
+			  nav a:hover {
+			    color: #FFA07A;
+			  }
+			  
+			  /* Main styles */
+			  main {
+			    padding: 20px;
+				width: 50%;
+				margin: 0 auto 0 auto;
+				
+			  }
+
+              main h2{
+                margin-top: 0;
+              }
+
+              main p {
+                line-height: 1.5;
+              }
+
+              /* image gallery styles */
+              .image-gallery {
+                background-color: #fff;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin-top: 20px;
+                padding: 20px;
+                }
+
+                .image-gallery img {
+                  width: 600px;
+                  height: 250px;
+                  object-fit: cover;
+                }
+                
+                /* contact form styles */
+                #contact {
+                  margin-top: 20px;
+                
+                }
+
+                .contact-form {
+                   margin-top: 20px;
+                }
+
+                .contact-form label {
+                  display: block;
+                  margin-bottom: 10px;
+                  font-weight: bold;
+                }
+
+                .contact-form input,
+                .contact-form textarea {
+                  width: 100%;
+                  padding: 10px;
+                  border: 1px solid #ccc;
+                  border-radius: 5px;
+                  margin-bottom: 20px;
+                  font-size: 16px;
+                }
+
+                .contact-form button {
+                  background-color: #6495ED;
+                  color: #fff;
+                  padding: 10px 20px;
+                  border: none;
+                  border-radius: 5px;
+                  cursor: pointer;
+                  font-size: 16px;
+                  text-transform: uppercase;
+                  margin-left: 90%;
+                }
+
+                /* Footer styles */
+                footer {
+                  background-color: #6495ED;
+                  color: #fff;
+                  padding: 20px;
+                  text-align: center;
+                }
+
+                footer p{
+                  margin: 0;
+
+                }
+
+  				
